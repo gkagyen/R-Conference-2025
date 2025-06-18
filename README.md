@@ -2,6 +2,12 @@
 
 <!-- badges: start -->
 
+![R Version](https://img.shields.io/badge/R-4.3.0-blue.svg)
+
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
+![Made with R](https://img.shields.io/badge/Made%20with-R-1f425f.svg)
+
 <!-- badges: end -->
 
 ## Machine Learning in Environmental Monitoring: An R Perspective
@@ -21,7 +27,7 @@ This presentation introduces how **Machine Learning** can be used in **Environme
 ## 📁 Repository Structure
 
 | Folder/File | Description |
-|----------------------------|------------------------------------------------|
+|---------------------------|---------------------------------------------|
 | `scripts/` | Contains all R scripts used in the live demo and data prep |
 | `data/` | Example environmental dataset (synthetic) |
 | `Conference Presentation.pptx` | Presentation slides (PowerPoint) |
@@ -38,7 +44,7 @@ Make sure you have R (≥ 4.1.0) and the following packages installed:
 
 ### Running the Live Demo Code
 
-1.   Open the project folder in RStudio.
+1.  Open the project folder in RStudio.
 
 2.  Navigate to the script in `R/predict_rainfall_demo.R` (or equivalent).
 
@@ -68,7 +74,7 @@ The demo illustrates how **machine learning** (Random Forest) can be applied to 
 PhD Researcher in Coastal Engineering\
 University of Cape Coast, Ghana
 
--    🔬 *Research Focus*: Wave dynamics, coastal erosion, sediment transport
+-   🔬 *Research Focus*: Wave dynamics, coastal erosion, sediment transport
 
 -   🤖 *Interests*: Machine Learning, R programming, environmental data analysis
 
