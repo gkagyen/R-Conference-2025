@@ -23,12 +23,13 @@ weather_data_complete <- weather_data |> select(Date) |>
 head(weather_data_complete)
 
 # visualise trends
-weather_data_complete |> pivot_longer(-Date) |> 
+weather_data_complete |> pivot_longer(-(c(Date,Month))) |> 
   ggplot(aes(x = Date, y = value, colour = name)) +
   geom_line(linewidth = 0.6, show.legend = FALSE) + 
   labs(x = 'Time Duration', y = 'Recorded Values',
        title = 'Weather Data from 2019 to 2024',
-       caption = 'NB: This is just a synthetic data') + 
+       caption = 'NB: This is just a synthetic data') +
+  scale_x_date(breaks = breaks_width('1 year'), date_labels = '%Y') +
   facet_wrap(~ name, scale = 'free_y') +
   theme_minimal() + 
   theme(plot.title = element_text(hjust = 0.5, face = 'bold'))
