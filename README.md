@@ -30,7 +30,7 @@ This presentation introduces how **Machine Learning** can be used in **Environme
 |---------------------------|---------------------------------------------|
 | `scripts/` | Contains all R scripts used in the live demo and data prep |
 | `data/` | Example environmental dataset (synthetic) |
-| `Conference Presentation.pptx` | Presentation slides (PowerPoint) |
+| `Conference Presentation.pdf` | Presentation slides (PowerPoint) |
 | `R Conference schedule.pdf` | Conference program schedule |
 | `README.md` | Project documentation (this file) |
 
